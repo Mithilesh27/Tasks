@@ -1,0 +1,148 @@
+body{
+    background-color: orange;
+}
+.big{
+    width:900px;
+    margin: 0 auto;
+}
+.navigation{
+    display:inline-block;
+    margin-right:150px;
+    width:100px;
+    height:100px;
+    position: relative;
+    top:1ch;
+    left:200px;
+}
+.pagetext{
+    display:inline-block;
+    color: indigo;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right:50px;
+    width:400px;
+    height:500px;
+    position: relative;
+    left:200px;
+}
+#Home{
+    display:inline;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border:1px solid black;
+    height:25px;
+    width:150px;
+    padding:10px;
+    margin-left: 0;
+    margin-bottom:0;
+    bottom:50px;
+    text-decoration: none;
+}
+#Homediv{
+    position:fixed;
+    display:block;
+    width:150px;
+    height:40px;
+}
+#homespan{
+    display:inline-block;
+    position:relative;
+    margin-left:90px;
+    bottom:80px;
+    width: 30px;
+    height:40px;
+    background-color: black;
+}
+#musings{
+    display:inline;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border:1px solid black;
+    height:25px;
+    width:180px;
+    padding:12px 12px;
+    margin-left: 0;
+    text-decoration: none;
+}
+#musingsdiv{
+    position:relative;
+    display:block;
+    width:150px;
+    height:40px;
+}
+#musingsspan{
+    display:inline-block;
+    position:relative;
+    margin-left:80px;
+    bottom:31px;
+    width: 30px;
+    height:43px;
+    background-color: black;
+}
+#mytown{
+    display:inline;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border:1px solid black;
+    height:25px;
+    width:180px;
+    padding:12px 12px;
+    margin-left: 0;
+    text-decoration: none;
+}
+#towndiv{
+    position:relative;
+    display:block;
+    top:10px;
+    width:150px;
+    height:40px;
+}
+#townspan{
+    display:inline-block;
+    position:relative;
+    margin-left:80px;
+    bottom:31px;
+    width: 30px;
+    height:43px;
+    background-color: black;
+}
+#links{
+    display:inline;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border:1px solid black;
+    height:20px;
+    width:160px;
+    padding:12px 12px;
+    margin-left: 0;
+    top:20px;
+    text-decoration: none;
+}
+
+#linkdiv{
+    position:relative;
+    display:block;
+    width:200px;
+    height:40px;
+}
+
+#linkspan{
+    display:inline-block;
+    position:relative;
+    margin-left:80px;
+    right:20px;
+    bottom:11px;
+    width: 30px;
+    height:43px;
+    background-color: black;
+}
+.login{
+    background-color: green;
+    width: 80px;
+}
+#dotted{
+    border:1px dotted black;
+}

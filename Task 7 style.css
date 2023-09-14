@@ -1,0 +1,55 @@
+body{
+    background-color:  rgb(215, 105, 164);
+}
+.register{
+    position:relative;
+    border: 1px solid black;
+    background-color: rgb(129, 49, 92);
+    width:350px;
+    height:400px;
+    padding:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    font-size: large;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#gender{
+     width:400px;
+     height:20px;
+}
+#Gender{
+    display:inline;
+    margin-right:100px;
+}
+#radio-button{
+    display:inline-block;
+}
+
+#register{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(16, 26, 46);
+    position: relative;
+    width:250px;
+    height:30px;
+    border-radius:5px;
+    left:20%;
+}
+select{
+    position: relative;
+    left:100px;
+    width:150px;
+}
+#about{
+    position: relative;
+    width:200px;
+    height:50px;
+    left:120px;
+    top:20px;
+}
+input[type="text"],[type="email"],[type="password"],[type="number"]{
+    float: right;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+    <style>
+        .navbar-horizontal {
+            display:inline-block;
+        }
+        #Home{
+            background-color:orange;
+        }
+        #Java{
+            background-color:blueviolet;
+        }
+        #CSS{
+            background-color:green;
+        }
+        #HTML{
+            background-color:red;
+        }
+        #Bootstrap{
+            background-color: indigo;
+        }
+        .navbar-horizontal a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar-horizontal a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar-vertical {
+            display:inline-block;
+            overflow: hidden;
+            width: 200px;
+        }
+
+        .navbar-vertical a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar-vertical a:hover {
+            color: black;
+        }
+        #Vertical{
+            display:block;
+            margin:20px;
+        }
+        #Horizontal{
+            display:block;
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+  <h1>This is CSS Task 2</h1>
+  <h3 id="Vertical">Vertical Navigation bar</h3>
+  <div class="navbar-vertical">
+    <a href="#" id="Home">Home</a>
+    <a href="#" id="Java">Java</a>
+    <a href="#" id="CSS">CSS</a>
+    <a href="#" id="HTML">HTML</a>
+    <a href="#" id="Bootstrap">Bootstrap</a>
+  </div>
+  <h3 id="Horizontal">Horizontal Navigation bar</h3>
+  <div class="navbar-horizontal">
+    <a href="#"  id="Home">Home</a>
+    <a href="#" id="Java">Java</a>
+    <a href="#" id="CSS">CSS</a>
+    <a href="#" id="HTML">HTML</a>
+    <a href="#" id="Bootstrap">Bootstrap</a>
+  </div>
+</body>
+</html>

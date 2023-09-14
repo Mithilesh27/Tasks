@@ -1,0 +1,88 @@
+.nav-container{
+    position:fixed;
+    display:inline-block;
+    margin-right:150px;
+}
+.dummy{
+    position:fixed;
+    display:block;
+    margin:20px; 
+}
+.dummy2{
+    position:fixed;
+    display:block;
+    margin:20px; 
+}
+.navbartext{
+    display:inline-block;
+    margin-left:250px;
+    position:relative;
+}
+.navbartext2{
+    display:block;
+    margin-left:350px;
+    top:100px;
+    right:150px;
+    position:relative;
+}
+.nav-bar1{
+    border:1px solid black;
+    background-color:green;
+    border-radius: 10px;
+    width:130px;
+    height: 100px;
+    margin:10px;
+    position:relative;
+    left:-40px;
+}
+.nav-bar2{
+    border:1px solid black;
+    background-color: blue;
+    border-radius: 10px;
+    width:130px;
+    height:100px;
+    margin:10px;
+    position:relative;
+    left:-40px;
+}
+.nav-bar3{
+    border:1px solid black;
+    background-color: red;
+    border-radius: 10px;
+    width:130px;
+    height:100px;
+    margin:10px;
+    position:relative;
+    left:-40px;
+}
+.nav-bar4{
+    border:1px solid black;
+    background-color:grey;
+    border-radius: 10px;
+    width:130px;
+    height:100px;
+    margin:10px;
+    position:relative;
+    left:-40px;
+}
+.nav-bar1:hover{
+    width:150px;
+    height:110px;
+    transition:width height 0.8s;
+}
+.nav-bar2:hover{
+    width:150px;
+    height:110px;
+    transition:width height 0.8s;
+}
+.nav-bar3:hover{
+    width:150px;
+    height:110px;
+    transition:width height 0.8s;
+}
+.nav-bar4:hover{
+    width:150px;
+    height:110px;
+    transition:width height 0.8s;
+}
+

@@ -1,0 +1,43 @@
+.image{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#user{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inputuser{
+    width: 500px;
+    height:20px;
+    padding:2px;
+    margin-bottom:25px;
+}
+#password{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inputpassword{
+    width: 500px;
+    height:20px;
+    padding:2px;
+}
+#loginbtn{
+    background-color: green;
+    width:500px;
+    height: 35px;
+    color: white;
+}
+#cancel{
+    background-color: red;
+    color:white;
+    height:30px;
+    width:120px;
+}
